@@ -29,6 +29,12 @@ body{
     font-weight: 700;
 }
 
+.container img{
+    width: 30%;
+    display: block;
+    margin: 10% 0 0 34%;
+}
+
 form{
     margin: 2rem 0 1rem 0;
 }
@@ -66,17 +72,12 @@ input:hover{
 }
 .from-select-container img{
     max-width: 2.5rem;
-    /* display: none; */
+    display: none;
 }
 .to-select-container img{
     max-width: 2.5rem;
-    /* display: none; */
-}
-img{
-    /* max-width: 2rem; */
     display: none;
 }
-
 
 .from-select-container, .to-select-container{
     display: flex;
@@ -144,7 +145,7 @@ form button{
     }
     form input{
         margin-left: 0.8rem;
-        width: 25rem;
+        width: 23rem;
     }
     .to-select-container{
         width: 7rem;
@@ -172,7 +173,7 @@ form button{
     form button{
         margin-top: 1rem;
         margin-left: 0.8rem;
-        width: 25.6rem;
+        width: 23.6rem;
     }
     .amount p{
         margin-left: 0.8rem;
